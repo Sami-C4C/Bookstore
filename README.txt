@@ -30,3 +30,5 @@ This is a simple web application for managing a bookstore, built with Django.
 ## License
 
 This project is an open source-project for learning purposes.
+
+![Screenshot from 2023-07-03 22-11-14](https://github.com/Sami-C4C/Bookstore/assets/101250244/d75a8af6-7fef-4e70-b565-2040a1640f71)
