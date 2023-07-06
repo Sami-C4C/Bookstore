@@ -2,7 +2,12 @@
 
 # Bookstore Web Application
 
-
+![Screenshot from 2023-07-06 16-02-24](https://github.com/Sami-C4C/Bookstore/assets/101250244/47f7da4f-6da8-4cf1-8df6-218b5efbf470)
+<br />
+![Screenshot from 2023-07-06 16-02-37](https://github.com/Sami-C4C/Bookstore/assets/101250244/a4722454-d113-4772-84b3-fde48f86139e)
+<br />
+![Screenshot from 2023-07-06 16-02-45](https://github.com/Sami-C4C/Bookstore/assets/101250244/653a6846-e828-4290-8132-832d98064270)
+<br />
 
 This is a simple web application for managing a bookstore, built with Django.
 
