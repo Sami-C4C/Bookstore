@@ -3,12 +3,7 @@
 # Bookstore Web Application
 
 
-
-![Screenshot from 2023-07-03 22-11-14](https://github.com/Sami-C4C/Bookstore/assets/101250244/0cddb0fc-33e7-4442-8bc8-946e8c3c74e3)
-
-![Screenshot from 2023-07-03 22-11-37](https://github.com/Sami-C4C/Bookstore/assets/101250244/578c0e1b-bfe0-4924-b5a7-a545cd2bbb59)
-
-![Screenshot from 2023-07-03 22-11-56](https://github.com/Sami-C4C/Bookstore/assets/101250244/9f07c7fb-ba99-4a05-ab0c-03a57f4577a0)
+![Screenshot from 2023-07-03 22-11-14](https://github.com/Sami-C4C/Bookstore/assets/101250244/83ddf141-d03b-46ea-982f-2e920ed3d37a)
 
 
 
