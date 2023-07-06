@@ -4,13 +4,12 @@
 
 
 
+![Screenshot from 2023-07-03 22-11-14](https://github.com/Sami-C4C/Bookstore/assets/101250244/0cddb0fc-33e7-4442-8bc8-946e8c3c74e3)
 
+![Screenshot from 2023-07-03 22-11-37](https://github.com/Sami-C4C/Bookstore/assets/101250244/578c0e1b-bfe0-4924-b5a7-a545cd2bbb59)
 
-![Screenshot from 2023-07-03 22-11-14](https://github.com/Sami-C4C/Bookstore/assets/101250244/42e696b4-2f16-4e0a-9d6c-e685e9146139)
-<br>
-![Screenshot from 2023-07-03 22-11-37](https://github.com/Sami-C4C/Bookstore/assets/101250244/c14acafd-1b27-4e75-9b5c-a947b16c090d)
-<br>
-![Screenshot from 2023-07-03 22-11-56](https://github.com/Sami-C4C/Bookstore/assets/101250244/8fbbb191-9238-42de-bcad-52027f0a217c)
+![Screenshot from 2023-07-03 22-11-56](https://github.com/Sami-C4C/Bookstore/assets/101250244/9f07c7fb-ba99-4a05-ab0c-03a57f4577a0)
+
 
 
 
