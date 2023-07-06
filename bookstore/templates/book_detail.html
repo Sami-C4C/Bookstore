@@ -1,0 +1,39 @@
+{% extends 'base.html' %}
+
+{% block title %}{{ book.title }}{% endblock %}
+
+{% block content %}
+<h2>{{ book.title }}</h2>
+<table>
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Author</th>
+            <th>Price</th>
+            <th>Booklist(s)</th>
+            <th>ISBN</th>
+            <th>Action</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>{{book.id}}</td>
+            <td>{{ book.author }}</td>
+            <td>${{ book.price }}</td>
+
+
+            <td>
+                {% for booklist in book.booklists.all %}
+                {{ booklist.id }}{% if not forloop.last %}, {% endif %}
+                {% endfor %}
+            </td>
+
+            <td>{{ book.ISBN_number }}</td>
+            <td>
+                <a href="{% url 'book_edit' book.id %}">Edit</a> |
+                <a href="{% url 'book_delete' book.id %}">Delete</a>
+            </td>
+        </tr>
+    </tbody>
+</table>
+{% endblock %}

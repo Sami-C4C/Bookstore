@@ -1,0 +1,36 @@
+{% extends 'base.html' %}
+
+{% block title %}Booklists Collection{% endblock %}
+
+{% block content %}
+<h2>Booklists Collection</h2>
+<table>
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>Title</th>
+            <th>Category</th>
+            <th>Action</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for booklist in booklists %}
+        <tr>
+            <td>{{booklist.id}}</td>
+            <td><a href="{% url 'booklist' booklist.id %}">{{ booklist.title }}</a></td>
+            <td>{{ booklist.category }}</td>
+            <td>
+                <a href="{% url 'booklist_edit' booklist.id %}">Edit</a> |
+                <a href="{% url 'booklist_delete' booklist.id %}">Delete</a>
+            </td>
+        </tr>
+        {% empty %}
+        <tr>
+            <td colspan="3">No booklists available.</td>
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>
+<a href="{% url 'booklist_new' %}" class="button">Create new List</a>
+
+{% endblock %}

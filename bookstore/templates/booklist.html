@@ -1,0 +1,37 @@
+{% extends 'base.html' %}
+
+{% block title %}Booklist{% endblock %}
+
+{% block content %}
+<h2>Booklist: {{ booklist.title }}</h2>
+<h3>Category: {{ booklist.category }}</h3>
+<table>
+    <thead>
+        <tr>
+            <th>Title</th>
+            <th>Author</th>
+            <th>Price</th>
+            <th>ISBN</th>
+            <th>Action</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for book in booklist.books.all %}
+        <tr>
+            <td><a href="{% url 'book_detail' book.id %}">{{ book.title }}</a></td>
+            <td>{{ book.author }}</td>
+            <td>${{ book.price }}</td>
+            <td>{{ book.ISBN_number }}</td>
+            <td>
+                <a href="{% url 'book_edit' book.id %}">Edit</a> |
+                <a href="{% url 'book_delete' book.id %}">Delete</a>
+            </td>
+        </tr>
+        {% empty %}
+        <tr>
+            <td colspan="5">No books in this booklist.</td>
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>
+{% endblock %}

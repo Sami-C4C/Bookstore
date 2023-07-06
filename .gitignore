@@ -1,0 +1,25 @@
+# Virtual Environment
+venv/
+.env
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.pyc
+*.pyo
+
+# Log files
+*.log
+
+# IDE-related
+.vscode/
+.idea/
+
+# Media and static files
+media/
+bookstore/static/
+
+# Local settings (if any)
+local_settings.py
+
+# zip files
+*.zip
