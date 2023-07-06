@@ -7,7 +7,9 @@
 
 
 ![Screenshot from 2023-07-03 22-11-14](https://github.com/Sami-C4C/Bookstore/assets/101250244/42e696b4-2f16-4e0a-9d6c-e685e9146139)
+<br>
 ![Screenshot from 2023-07-03 22-11-37](https://github.com/Sami-C4C/Bookstore/assets/101250244/c14acafd-1b27-4e75-9b5c-a947b16c090d)
+<br>
 ![Screenshot from 2023-07-03 22-11-56](https://github.com/Sami-C4C/Bookstore/assets/101250244/8fbbb191-9238-42de-bcad-52027f0a217c)
 
 
